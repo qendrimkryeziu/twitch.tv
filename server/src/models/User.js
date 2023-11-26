@@ -8,4 +8,4 @@ const userSchema = new Schema({
   password: { type: String },
 });
 
-export default mongoose.model("Úser", userSchema);
+export default mongoose.model("User", userSchema);
